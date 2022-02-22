@@ -1,0 +1,18 @@
+body{
+    background-color: aliceblue;
+    
+    
+}
+.container{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between ;
+
+}
+.card{
+    width: 40rem;
+
+    border: 6px;
+}
