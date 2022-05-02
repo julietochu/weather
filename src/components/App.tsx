@@ -31,9 +31,9 @@ const App: FC = () => {
     }
   };
   return (
-    <div className="container p-4" >
+    <div className='p-4'>
       <div className='row'>
-        <div className='card p-4'>
+        <div className='col-sm card p-4'>
           <div className='card-header'> <h2 className='main text-primary d-flex justify-content-center pt-4'>Weather App</h2></div>
 
           <div className='card-body'>

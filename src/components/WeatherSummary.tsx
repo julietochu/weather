@@ -28,7 +28,7 @@ export const WeatherSummary: FC<WeatherSummaryProps> = ({location}) => {
   if (!location || !weather || !forecast) return null;
 
   return (
-    <div>
+    <div className="row">
       <hr/>
       <h2>{location.name}</h2>
       <WeatherEntry weather={weather}/>
